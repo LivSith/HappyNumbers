@@ -7,7 +7,7 @@ def happy(number):
 
     box = []
     n = number
-    while n != 1and n not in box:
+    while n != 1 and n not in box:
         box.append(n)
         n = sum_of_squares(n)
     return n == 1
